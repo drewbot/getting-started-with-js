@@ -4,15 +4,16 @@
 
 - In the head or just before the end of the body
 - You can download the files from http://jquery.com/download/
-	- The uncompressed verion is good for debugging while in development
-	- The compressed verion is better for performance while in production due to reduced file size
+	- The uncompressed version is good for debugging while in development
+	- The compressed version is better for performance while in production due to reduced file size
 	- Include by saving to your project directory and linking via script tag
 
 - You can also include via CDN
+	- The jQuery file is served to the web via jQuery.com
 	- CDN has performance benefits while in production. if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, it won't have to be re-downloaded
 	- Include by linking to jQuery servers via the script tag as in the example below
 		
-**Via download and saved to your directory:**
+**Downloaded files saved to your directory:**
 
 ```
 <head>
@@ -33,7 +34,7 @@
 
 ###Include JavaScript in your document###
 
-- You can write JavsScript inline via script tag
+- You can write JavsScript inline within a script element
 - You can also link from a .js file within your project directory
 		
 **Writing JS inline:**
@@ -46,7 +47,7 @@
  </script>
 </body>
 ```
-**Inlcuding JS via linking to .js file:**
+**Inlcuding JS by linking to .js file:**
 
 ```
 <body>
@@ -78,12 +79,14 @@ Hello World
 - The console will show an error message if it cannot find another file linked to your document. Check the corresponding file path and correct if necessary.
 	- This applies not only to .js files but also to .css, images, fonts, etc..
 
+**Example error message**
+
 ```
 Failed to load resource: 
 net::ERR_FILE_NOT_FOUND 
 	file://scripts/main.jumboshrimp
 ```
-- You can write JavaScript directly to the console. Code written to the console will be lost after browser refresh.
+- You can write JavaScript directly in the console. Code written in the console will be lost after browser refresh.
 
 **Try some math**
 

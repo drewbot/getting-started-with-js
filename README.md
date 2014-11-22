@@ -1,8 +1,44 @@
 ##Working with JavaScript, jQuery and the DOM:##
 
+###Get familiar with documents and the DOM###
+
+- A web page is a document
+	- The document is displayed in the browser window or as the HTML source code
+- DOM stands for Document Object Model
+- The DOM is a programming interface for HTML and XML
+- It provides a calculated representation of the document
+- It connects web pages to scripts and programming languages
+- It can be modified with a scripting language like JavaScript
+
+###Include JavaScript in your document###
+
+- JavaScript uses the DOM to access the document and it's elements
+- You can write JavsScript inline within a script element
+- You can also link from a .js file within your project directory
+		
+**Writing JS inline:**
+
+```
+<body>
+ // Your HTML Content
+ <script type="text/javascript">
+ 	console.log('Hello World!")
+ </script>
+</body>
+```
+**Inlcuding JS by linking to .js file:**
+
+```
+<body>
+ // Your HTML Content
+ <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+```
+
 ###Include jQuery in your document##
 
-- In the head or just before the end of the body
+- Make sure jQuery is included in your document before JavaScript if you plan to use jQuery. Now you can write jQuery syntax within your JavaScript
+- Include in the head of your document or just before the end of the body
 - You can download the files from http://jquery.com/download/
 	- The uncompressed version is good for debugging while in development
 	- The compressed version is better for performance while in production due to reduced file size
@@ -31,37 +67,12 @@
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 ```
-**Before the body tag:**
+**Before the closing body tag:**
 
 ```
 <body>
   // Your HTML Content
   <script src="scripts/jquery-1.11.1.js.js"></script>
-</body>
-```
-
-###Include JavaScript in your document###
-
-- You can write JavsScript inline within a script element
-- You can also link from a .js file within your project directory
-- Make sure jQuery is included in your document before JavaScript if you plan to use jQuery
-		
-**Writing JS inline:**
-
-```
-<body>
- // Your HTML Content
- <script type="text/javascript">
- 	console.log('Hello World!")
- </script>
-</body>
-```
-**Inlcuding JS by linking to .js file:**
-
-```
-<body>
- // Your HTML Content
- <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 ```
 
@@ -114,7 +125,7 @@ net::ERR_FILE_NOT_FOUND
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 
-***jQuery Traversing and Manipulating the DOM***
+***jQuery: Traversing and Manipulating the DOM***
 
 - http://jqfundamentals.com/chapter/traversing-manipulating
 

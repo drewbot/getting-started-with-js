@@ -5,10 +5,10 @@
 - A web page is a document
 	- The document is displayed in the browser window or as the HTML source code
 - DOM stands for Document Object Model
-- The DOM is a programming interface for HTML and XML
-- It provides a calculated representation of the document
-- It connects web pages to scripts and programming languages
-- It can be modified with a scripting language like JavaScript
+	- The DOM is a programming interface for HTML and XML
+	- It provides a calculated representation of the document
+	- It connects web pages to scripts and programming languages
+	- It can be modified with a scripting language like JavaScript
 
 ***DOM Tree***
 
@@ -42,8 +42,8 @@
 
 ###Include jQuery in your document##
 
-- Make sure jQuery is included in your document before JavaScript if you plan to use jQuery. Now you can write jQuery syntax within your JavaScript
-- Include in the head of your document or just before the end of the body
+- Make sure jQuery is included in your document before JavaScript if you plan to use jQuery. This way you can write jQuery syntax within your JavaScript
+- Include jQuery in the head of your document or just before the end of the body
 - You can download the files from http://jquery.com/download/
 	- The uncompressed version is good for debugging while in development
 	- The compressed version is better for performance while in production due to reduced file size
@@ -60,7 +60,7 @@
 <head>
   <title>Title</title>
   <link type="text/css" rel="stylesheet" href="styles/main.css"></link>
-  <script src="scripts/jquery-1.11.1.js.js"></script>
+  <script src="scripts/jquery-1.11.1.min.js"></script>
 </head>
 ```
 **Via CDN:**
@@ -78,7 +78,7 @@
 <body>
   // Your HTML Content
   // jQuery first
-  <script src="scripts/jquery-1.11.1.js.js"></script>
+  <script src="scripts/jquery-1.11.1.min.js"></script>
   // Then include your JavaScript
   <script type="text/javascript" src="scripts/main.js"></script>
 </body>
@@ -123,8 +123,8 @@ net::ERR_FILE_NOT_FOUND
 	3
 45 * 99
 	4455
-(36 * 67) / (78 + 84)
-	14.88888888888889
+(36 * 67) / (84 - 79)
+	482.4
 ```
 
 ###Resources:###

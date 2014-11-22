@@ -10,6 +10,8 @@
 - It connects web pages to scripts and programming languages
 - It can be modified with a scripting language like JavaScript
 
+***DOM Tree***
+
 ![Dom Tree](images/dom-tree.jpg "DOM Tree")
 
 

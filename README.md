@@ -136,6 +136,10 @@ net::ERR_FILE_NOT_FOUND
 
 - http://api.jquery.com/
 
+***jQuery Cheatsheet***
+
+- http://oscarotero.com/jquery/
+
 ***jQuery Fundamentals***
 
 - http://jqfundamentals.com/

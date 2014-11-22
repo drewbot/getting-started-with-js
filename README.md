@@ -47,13 +47,12 @@
 - You can download the files from http://jquery.com/download/
 	- The uncompressed version is good for debugging while in development
 	- The compressed version is better for performance while in production due to reduced file size
-	- Include by saving to your project directory and linking via script tag
+	- Include by saving to your project directory and linking via script tag	
 
 - You can also include via CDN
 	- The jQuery file is served to the web via jQuery.com
 	- CDN has performance benefits while in production. if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, it won't have to be re-downloaded
-	- Include by linking to jQuery servers via the script tag as in the example below
-		
+	- Include by linking to jQuery servers via the script tag	
 **Downloaded files saved to your directory:**
 
 ```
@@ -62,7 +61,7 @@
   <link type="text/css" rel="stylesheet" href="styles/main.css"></link>
   <script src="scripts/jquery-1.11.1.min.js"></script>
 </head>
-```
+```	
 **Via CDN:**
 
 ```
@@ -132,6 +131,10 @@ net::ERR_FILE_NOT_FOUND
 ***Intro to the DOM***
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+***Eloquent Javascript***
+
+- http://eloquentjavascript.net/
 
 ***jQuery: Traversing and Manipulating the DOM***
 

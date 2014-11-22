@@ -152,3 +152,13 @@ net::ERR_FILE_NOT_FOUND
 ***Google Chrome Console***
 
 - https://developer.chrome.com/devtools/docs/console
+
+***Drew's Responsive Nav CodePen***
+
+- http://codepen.io/drewbot/pen/RNNyZq
+
+***Drew's Input Value Print to DOM CodePen***
+
+- http://codepen.io/drewbot/pen/Qwwrvw
+
+

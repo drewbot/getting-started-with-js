@@ -72,7 +72,10 @@
 ```
 <body>
   // Your HTML Content
+  // jQuery first
   <script src="scripts/jquery-1.11.1.js.js"></script>
+  // Then include your JavaScript
+  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 ```
 

@@ -19,7 +19,7 @@
 <head>
   <title>Title</title>
   <link type="text/css" rel="stylesheet" href="styles/main.css"></link>
-  <script src="scripts/jquery.js"></script>
+  <script src="scripts/jquery-1.11.1.js.js"></script>
 </head>
 ```
 **Via CDN:**
@@ -31,11 +31,20 @@
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 ```
+**Before the body tag:**
+
+```
+<body>
+  // Your HTML Content
+  <script src="scripts/jquery-1.11.1.js.js"></script>
+</body>
+```
 
 ###Include JavaScript in your document###
 
 - You can write JavsScript inline within a script element
 - You can also link from a .js file within your project directory
+- Make sure jQuery is included in your document before JavaScript if you plan to use jQuery
 		
 **Writing JS inline:**
 

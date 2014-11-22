@@ -24,7 +24,7 @@ window.onload = function() {
 	// create a couple of elements 
 	// in an otherwise empty HTML page
 	heading = document.createElement("h1");
-	heading_text = document.createTextNode("Big Head!");
+	heading_text = document.createTextNode("Welcome to Programming!");
 	heading.appendChild(heading_text);
 	document.body.appendChild(heading);
 }

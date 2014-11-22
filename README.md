@@ -10,6 +10,9 @@
 - It connects web pages to scripts and programming languages
 - It can be modified with a scripting language like JavaScript
 
+![Dom Tree](images/dom-tree.jpg "DOM Tree")
+
+
 ###Include JavaScript in your document###
 
 - JavaScript uses the DOM to access the document and it's elements

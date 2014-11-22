@@ -4,8 +4,8 @@
 
 - A web page is a document
 	- The document is displayed in the browser window or as the HTML source code
-- DOM stands for Document Object Model
-	- The DOM is a programming interface for HTML and XML
+- The DOM is a programming interface for HTML and XML
+	- DOM stands for Document Object Model
 	- It provides a calculated representation of the document
 	- It connects web pages to scripts and programming languages
 	- It can be modified with a scripting language like JavaScript
@@ -101,7 +101,7 @@
 **Console**
 
 ```
-Hello World
+Hello World!
 ```
 - Read any errors that may be present.
 - The console will show an error message if it cannot find another file linked to your document. Check the corresponding file path and correct if necessary.

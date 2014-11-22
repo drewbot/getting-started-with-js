@@ -1,4 +1,4 @@
-##When working with javascript and the DOM:##
+##Working with javascript and the DOM:##
 
 ###Include jQuery in your document##
 

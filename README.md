@@ -164,4 +164,11 @@ net::ERR_FILE_NOT_FOUND
 
 - http://codepen.io/drewbot/pen/Qwwrvw
 
+***Introduction to JavaScript types***
+
+- http://learn.jquery.com/javascript-101/types/
+
+***Complete JavaScript Syntax Guide***
+
+- http://speakingjs.com/es5/index.html#pt03
 
